@@ -22,7 +22,7 @@
     <PackageProjectUrl>github.com/infarh/mathcore.webapiclients</PackageProjectUrl>
     <RepositoryUrl>https://github.com/infarh/mathcore.webapiclients.git</RepositoryUrl>
     <Description>Клиенты WebAPI</Description>
-    <PackageTags>WebAPI</PackageTags>
+    <PackageTags>WebAPI;HTTP</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>shmachilin@gmail.com</Copyright>
     <SignAssembly>true</SignAssembly>
@@ -37,7 +37,7 @@
   </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)'=='ReleaseCPU'">
-    <DocumentationFile>MathCore.WebAPIClients.xml</DocumentationFile>
+    <DocumentationFile>$(MSBuildProjectName.Replace(" ", "_")).xml</DocumentationFile>
     <NoWarn>1701;1702;1591</NoWarn>
   </PropertyGroup>
 
