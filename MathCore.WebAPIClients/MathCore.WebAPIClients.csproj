@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>0.0.1</Version>
+    <Version>0.0.1.1</Version>
     <PackageReleaseNotes>
       Обновление пакетов
     </PackageReleaseNotes>
@@ -31,9 +31,9 @@
 
   <ItemGroup>
     <PackageReference Include="MathCore.Interfaces" Version="0.0.1" />
-    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="6.0.4" />
-    <PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="7.0.0" />
+    <PackageReference Include="System.Net.Http.Json" Version="7.0.0" />
   </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)'=='ReleaseCPU'">
